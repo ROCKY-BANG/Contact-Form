@@ -1,0 +1,85 @@
+body{
+    margin: 60px 50px;
+    margin-left: 80px;
+    padding: 30px;
+    background-image: url("https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+h1{
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.842),0px 0px 2px rgba(255, 255, 255, 0.842), 0px 0px 10px rgba(255, 255, 255, 0.842);   
+}
+img{
+    padding: 10px;
+    margin: 5px;
+}
+
+form{
+    
+    padding-left: 50px;
+    padding: 25px;
+    margin: 10px 45px 10px 210px;
+    border: 2px none rgba(172, 49, 49, 0.158);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.205);
+    width: 50%;
+    height: 100;  
+}
+
+input[type = "text"],
+input[type = "number"],
+input[type = "email"],
+textarea,
+select{   
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin: 10px; 
+    background-color: rgb(255, 255, 255); 
+}
+
+#fname{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-5ZnQwvok9iCpJqLSDadY9G70LLK7HmPMw&usqp=CAU");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#email{
+    background-image: url("https://wikiclipart.com/wp-content/uploads/2017/02/Mail-clipart-free-images.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#Phno{
+    background-image: url("https://i.pinimg.com/474x/b0/10/64/b01064465d278ea8f2f0fc2b60ea9d6b.jpg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+input[type = "submit"]{
+     padding: 10px;
+     border: none;
+     background-color: rgba(203, 230, 231, 0.726);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: larger;
+     box-shadow: rgba(25, 212, 212, 0.651);
+     margin-left: 200px;
+}
+
+input[type = "submit"]:visited{
+    background-color: rgba(15, 91, 233, 0.788);
+   
+}
+
+input[type = "submit"]:hover{
+    background-color: rgba(15, 233, 62, 0.788);
+}

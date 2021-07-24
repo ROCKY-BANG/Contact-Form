@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <img src="https://o.remove.bg/downloads/3118f197-1eca-4b02-a2a0-5755839cea13/png-clipart-contact-us-icon-email-iphone-telephone-computer-icons-contact-miscellaneous-blue-removebg-preview.png"
+      width="120px" align= "right">
+    <h1 align = "center" class="contact">Contact Us </h1>
+    <hr>
+    <form>
+     
+        <p>Your Name :<br><input type="text" name="first Name" id="fname" placeholder="First name"
+                required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"
+                name="second Name" id="secname" placeholder="Second name" required></p>
+        <p>
+            Email Address : <br><input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+        </p>
+        <p>
+            Phone No :
+            <br>
+            <input type="number" name="Phno" id="Phno" placeholder="1234567890" required>         
+        </p>
+        <p>
+            Subject :
+            <br>
+            <select name="Subject" id="Subject" required>
+                <option value="">Subject</option>
+                <option value="Query">Query</option>
+                <option value="Compliant">Compliant</option>
+                <option value="Suggestion">Suggestion</option>
+                <option value="Feed Back">Feed Back</option>
+            </select>
+        </p>
+        <p>
+            Message:
+            <br>
+            <textarea name="Address" id="Address" rows="5" cols="40" required></textarea>
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
